@@ -1,78 +1,42 @@
-# 🏦 PersonalFinanceTracker (Java Swing)
+# 🎵 Music Genre Analysis & Recommendation
 
-Keep track of where your money goes -- right from your desktop.\
-This project is a **Java Swing application** that lets you log daily
-expenses, view summaries, and lock your data behind a secure PIN.
+## 📌 Project Overview
+This project investigates a **music dataset** to identify trends across various genres and their unique characteristics.  
+It also implements a **basic recommendation mechanism** that suggests similar tracks by comparing extracted features.
 
-------------------------------------------------------------------------
+## 🚀 Key Highlights
+- Downloaded and preprocessed the dataset directly in the workflow.  
+- Visualized the distribution of different music genres.  
+- Extracted statistical and audio-related features for deeper understanding.  
+- Built a simple recommendation system using feature similarity.  
+- Generated visual insights such as genre distribution, feature correlations, and prediction results.  
 
-## 📌 What You Can Do
+## 📊 Visual Outputs
+Example results from the analysis (screenshots available in `images/` folder):
 
--   Start with a **PIN login** to keep your tracker private\
--   Add or remove expenses with a click\
--   See **daily and monthly totals** in one glance\
--   Export reports to a text file for later reference\
--   Enjoy a simple and colorful **desktop UI**
+### 🎶 Genre Distribution
+![Genre Distribution](images/musicimage1.png)  
+![Genre Distribution](images/musicimage2.png)  
+![Genre Distribution](images/musicimage3.png)  
 
-------------------------------------------------------------------------
+### 🔗 Feature Correlation Heatmap
+![Correlation Heatmap](images/heatmap.png)  
 
-## 🚀 How to Run It
+### 🎯 Prediction Results
+![Predicted](images/predicted1.png)  
+![Predicted](images/predicted2.png)  
 
-1.  Make sure you have **Java JDK 8+** installed.\
+### 🎧 Recommendation Output
+![Recommendation](images/recommend.png)  
 
-2.  Download or clone the project:
+### 📈 Accuracy & Performance
+![Accuracy](images/output.png)  
+![Accuracy](images/output1.png)  
 
-    ``` bash
-    git clone https://github.com/yourusername/PersonalFinanceTracker-JavaSwing.git
-    cd PersonalFinanceTracker-JavaSwing
-    ```
+## 🔮 Future Enhancements
+- Integrate advanced recommendation methods (collaborative filtering, deep learning).  
+- Add user-driven inputs for customized suggestions.  
+- Deploy as an interactive web app for wider accessibility.  
 
-3.  Compile the classes:
-
-    ``` bash
-    javac FinanceTracker.java Pincode.java
-    ```
-
-4.  Launch the app:
-
-    ``` bash
-    java Pincode
-    ```
-
-    👉 Default PIN = **1234**
-
-------------------------------------------------------------------------
-
-## 📷 Interface Sneak Peek
-
--   🔑 **Login with PIN**\
-    ![PIN Authentication](pincode1.png)
-
--   📝 **Main Tracker Window**\
-    ![Main Interface](financetracker1.png)
-
--   📊 **Expense Report Export**\
-    ![Expense Report](financetracker2.png)
-
-------------------------------------------------------------------------
-
-## 🛠️ Under the Hood
-
--   **Swing** → GUI design\
--   **Java Collections** → Manage expense data\
--   **SimpleDateFormat** → Format dates\
--   **FileWriter** → Generate exportable reports
-
-------------------------------------------------------------------------
-
-## 🤔 Why This Project?
-
-I wanted a **lightweight finance manager** that doesn't need the
-internet and is written entirely in Java.\
-It's minimal, fast, and keeps everything offline & secure.
-
-------------------------------------------------------------------------
-
-## 📜 License
-
-MIT License -- free to use, share, and improve.
+## 👨‍💻 Author
+**Sambeet Panda**
